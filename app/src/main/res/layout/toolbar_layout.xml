@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/toolbar"
+    android:layout_width="match_parent"
+    android:layout_height="45dp"
+    android:background="#D5D8DC"
+    android:elevation="15dp"
+    android:gravity="right"
+    android:minHeight="?attr/actionBarSize"
+    android:orientation="horizontal"
+    android:theme="?attr/actionBarTheme">
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="70dp"
+        android:layout_height="35dp"
+        android:padding="5dp"
+        android:layout_marginEnd="260dp"
+        android:layout_gravity="center"
+        android:backgroundTint="#ff540c"
+        app:srcCompat="@drawable/tv_backgraund"
+        android:layout_marginRight="260dp" />
+
+    <ImageView
+
+        android:id="@+id/logIn"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_gravity="center"
+        android:backgroundTint="#ff540c"
+        android:layout_marginEnd="15dp"
+        android:layout_marginRight="15dp"
+        android:background="@drawable/ic_baseline_account"
+        android:contentDescription="@string/todo" />
+</LinearLayout>

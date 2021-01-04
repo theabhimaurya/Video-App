@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Video App</string>
+    <string name="todo1">TODO</string>
+    <string name="todo">TODO</string>
+    <string name="enter_your_email">Enter Your Email</string>
+    <string name="signin1">SignIn</string>
+    <string name="akm">akm</string>
+    <string name="enter_your_password">Enter Your Password</string>
+    <string name="or">Or</string>
+</resources>
